@@ -1,10 +1,9 @@
 body{
     margin:0;
-    background-color: #39CCCC;
 }
 
 .container{
-    border: 8px solid #FF4136;
+    border: 8px solid #FF851B;
     width: 500px;
     height: 500px;
     margin: 60px auto;
@@ -61,15 +60,15 @@ a.regOption:hover{
 }
 
 .logRegContent{
-    /*border: 3px solid black;*/
+    /*border: 3px solid white;*/
 }
 
 .loginContent{
-    /*border: 3px solid black;*/
+    /*border: 3px solid white;*/
 }
 
 .registerContent{
-    /*border: 3px solid black;*/
+    /*border: 3px solid white;*/
     display: none;
 }
 
@@ -99,7 +98,7 @@ a.regOption:hover{
     text-align: center;
 }
 
-.input-btn{
+.btn{
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -108,4 +107,73 @@ a.regOption:hover{
     padding: 6px 12px;
     margin: 15px 0px;
     cursor: pointer;
+}
+
+.profile-body{
+    /*border: 3px solid white;*/
+    padding: 8px 20px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.profile-mssg1{
+    font-size: 15px;
+    background-color: #2ECC40;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.profile-mssg2{
+    font-size: 15px;
+    background-color: #FF4136;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.user-details1{
+    font-size: 27px;
+}
+
+.user-details2{
+    font-size: 22px;
+    color: #0074D9;
+}
+
+.forgot-body{
+    /*border: 3px solid white;*/
+    padding: 8px 20px;
+    margin-top: 60px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+/*
+.after-forgot-body{
+    border: 3px solid white;
+    padding: 8px 20px;
+    margin-top: 60px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display: none;
+}
+*/
+
+.logout-body{
+    /*border: 3px solid white;*/
+    padding: 8px 20px;
+    margin-top: 60px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
 }

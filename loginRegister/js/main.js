@@ -18,4 +18,8 @@ $(document).ready(function (){
     $(".logOption").on("click", function (){
         return false;
     });
+
+    $("#for-btn").on("click", function (){
+        window.location.replace("index.php");
+    });
 });

@@ -9,21 +9,16 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 </head>
-<body style="background-color: #FF4136">
+<body style="background-color: #01FF70">
   <div class="container">
-    <div class="forgot-body">
-      <p>Reset Password</p>
-      <form action="#" method="post" autocomplete="off">
-        <input class="input" type="text" name="email" placeholder="Email Address">
-        <button type="submit" class="btn">Send reset link</button>
-      </form>
+    <div class="profile-body">
+      <p>Welcome</p>
+      <p class="profile-mssg1">Confirmation link has been sent to your email | Please verify your account by clicking on link in the mail</p>
+      <p class="profile-mssg2">Account is inactive | Please check your mail</p>
+      <p class="user-details1">You're logged in as:</p>
+      <p class="user-details2">username<br>email</p>
+      <a href="logout.php" class="btn">Log Out</a>
     </div>
-    <!-- check action first
-    <div class="after-forgot-body">
-      <p>Reset link sent!</p>
-      <p>Please check your mail</p>
-    </div>
-  -->
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
