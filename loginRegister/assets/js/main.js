@@ -19,7 +19,15 @@ $(document).ready(function (){
         return false;
     });
 
-    $("#for-btn").on("click", function (){
+    $("#for-home-btn").on("click", function (){
         window.location.replace("index.php");
     });
+
+    $("#for-logout-btn").on("click", function (){
+        window.location.replace("logout.php");
+    });
+
+    //$(window).on("beforeunload", function (){
+     //   $(".profile-mssg1").remove();
+    //});
 });

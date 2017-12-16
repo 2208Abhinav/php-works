@@ -79,11 +79,19 @@ a.regOption:hover{
     text-align: center;
 }
 
-.forgotPass> a{
+.forgotPass{
     color: white;
-    text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Raleway', sans-serif;
+}
+
+a.forgotPass:link{
+    text-decoration: none;
+}
+
+a.forgotPass:hover{
+    text-decoration: none;
+    color: #2ECC40;
 }
 
 .input{
@@ -91,7 +99,7 @@ a.regOption:hover{
     font-family: 'Raleway', sans-serif;
     color: #0074D9;
     padding: 6px 12px;
-    margin: 15px 0px;
+    margin: 12px 0px;
 }
 
 .loginContent> form, .registerContent> form{
@@ -109,6 +117,22 @@ a.regOption:hover{
     cursor: pointer;
 }
 
+.index-mssg-body, .reset-mssg-body{
+    /*border: 3px solid orange;*/
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.index-mssg, .reset-mssg{
+    font-size: 15px;
+    background-color: #FF851B;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+}
+
 .profile-body{
     /*border: 3px solid white;*/
     padding: 8px 20px;
@@ -119,7 +143,7 @@ a.regOption:hover{
 }
 
 .profile-mssg1{
-    font-size: 15px;
+    font-size: 16px;
     background-color: #2ECC40;
     border-radius: 10px;
     display: inline-block;
@@ -128,7 +152,7 @@ a.regOption:hover{
 }
 
 .profile-mssg2{
-    font-size: 15px;
+    font-size: 16px;
     background-color: #FF4136;
     border-radius: 10px;
     display: inline-block;
@@ -145,7 +169,7 @@ a.regOption:hover{
     color: #0074D9;
 }
 
-.forgot-body{
+.forgot-body, .confirm-body{
     /*border: 3px solid white;*/
     padding: 8px 20px;
     margin-top: 60px;
@@ -176,4 +200,23 @@ a.regOption:hover{
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+}
+
+.error-body{
+    /*border: 3px solid white;*/
+    padding: 8px 20px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.error-mssg{
+    font-size: 14px;
+    background-color: #FF4136;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 30px;
 }
