@@ -20,7 +20,7 @@ $(document).ready(function (){
     });
 
     $("#for-home-btn").on("click", function (){
-        window.location.replace("index.php");
+        window.location.replace("../index.php");
     });
 
     $("#for-logout-btn").on("click", function (){

@@ -1,6 +1,6 @@
 <?php
   //DBMS server details
-  //fill the details in the respective blanks
+  //fill the details in the respective blanks as strings
   $DBMSip = //blank
   $DBMSusername = //blank
   $DBMSpassword = //blank

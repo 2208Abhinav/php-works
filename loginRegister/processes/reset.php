@@ -5,7 +5,7 @@
   require "../multiples/dbms.php";
 
   //to make sure email and token are set and not empty
-  if(isset($_GET["email"]) && !empty($_GET["email"]) && isset($_GET["token"]) && !empty($_GET["token"]))
+  if (isset($_GET["email"]) && !empty($_GET["email"]) && isset($_GET["token"]) && !empty($_GET["token"]))
   {
     $email = $_GET["email"];
     $token = $_GET["token"];
@@ -16,12 +16,12 @@
         //when email & token are tampered with, in the URI
         $_SESSION["message"] = "Password reset wasn't successful";
         header("Location: ../index.php");
-    }else {
+    } else {
       //when user exists in DB; redirecting to type new password-page
       $_SESSION["reset"]=true;
       header("Location: ../views/resetPass.php");
     }
-  }else {
+  } else {
     //when email & token are tampered with, in the URI
     $_SESSION["message"] = "Password reset wasn't successful";
     header("Location: ../index.php");
