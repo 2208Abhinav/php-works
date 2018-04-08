@@ -6,7 +6,7 @@ My goal of documenting these projects is that we learn stuff by doing it and it 
 
 ## Table of Contents
 
-1. [Submit a form](submitAForm/README.md)
+1. [Submit a form](#)
 2. [Login Register](loginRegister/README.md)
 
 
