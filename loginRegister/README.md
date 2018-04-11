@@ -5,8 +5,16 @@ This is a basic login register system where a user can register with username, p
 ## Installing
 
 1. Clone the repository [php-works](https://github.com/apooravc/php-works).
-2. Create a database in DBMS and in it, a table for users with the following structure:
-![Table Structure](assets/images/tablestruct.JPG)
+2. Create a database in DBMS and in it, a table for users using following SQL command:<br>
+CREATE TABLE TableName (<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id int(11) NOT NULL AUTO_INCREMENT,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;email varchar(30) NOT NULL,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;username varchar(20) NOT NULL,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;password varchar(255) NOT NULL,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;token varchar(40) DEFAULT NULL,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;verified int(11) NOT NULL DEFAULT 0,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;PRIMARY KEY (id)<br>
+);<br>
 3. Enter the DBMS server details in file multiples/dbms.php
 4. Open index.php in the browser.
 
